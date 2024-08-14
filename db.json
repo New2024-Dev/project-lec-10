@@ -1,0 +1,127 @@
+{
+    "followers": [
+        {
+            "id":1,
+            "platform": "src/assets/imges/icon-facebook.svg",
+            "username": "@nathanf",
+            "metric": "Followers",
+            "value": 1987,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers":"12 Today",
+            "border":"border1"
+    
+        },
+        {
+            "id":2,
+            "platform": "src/assets/imges/icon-twitter.svg",
+            "username": "@nathanf",
+            "metric": "Followers",
+            "value": 1044,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers": "99 Today",
+            "border":"border1"
+        },
+        {
+            "id":3,
+            "platform": "src/assets/imges/icon-instagram.svg",
+            "username": "@realnathanf",
+            "metric": "Followers",
+            "value": 11000,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers": "1099 Today",
+            "border":"border2"
+        },
+        {
+            "id":4,
+            "platform": "src/assets/imges/icon-youtube.svg",
+            "username": "Nathan F.",
+            "metric": "Subscribers",
+            "value": 8239,
+            "change": "src/assets/imges/icon-down.svg",
+            "numfollowers": "144 Today",
+            "border":"border3"
+        }
+    ],
+    "engagement": [
+        {
+            "id":1,
+            "platform": "src/assets/imges/icon-facebook.svg",
+            "metric": "Page Views",
+            "value": 87,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers": "3%",
+            "gridname":"FC1",
+            "chancolor": "green"
+        },
+        {
+            "id":2,
+            "platform": "src/assets/imges/icon-facebook.svg",
+            "metric": "Likes",
+            "value": 52,
+            "change": "src/assets/imges/icon-down.svg",
+            "numfollowers": "2%",
+            "gridname":"FC2",
+            "chancolor": "red"
+        },
+        {
+            "id":3,
+            "platform": "src/assets/imges/icon-instagram.svg",
+            "metric": "Likes",
+            "value": 5462,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers": "2257%",
+            "gridname":"instagram1",
+            "chancolor": "green"
+        },
+        {
+            "id":4,
+            "platform": "src/assets/imges/icon-instagram.svg",
+            "metric": "Profile Views",
+            "value": 52000,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers": "1375%",
+            "gridname":"instagram2",
+            "chancolor": "green"
+        },
+        {
+            "id":5,
+            "platform": "src/assets/imges/icon-twitter.svg",
+            "metric": "Retweets",
+            "value": 117,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers": "303%",
+            "gridname":"twitter1",
+            "chancolor": "green"
+        },
+        {
+            "id":6,
+            "platform": "src/assets/imges/icon-twitter.svg",
+            "metric": "Likes",
+            "value": 507,
+            "change": "src/assets/imges/icon-up.svg",
+            "numfollowers":"553%",
+            "gridname":"twitter2",
+            "chancolor": "green"
+        },
+        {
+            "id":7,
+            "platform": "src/assets/imges/icon-youtube.svg",
+            "metric": "Likes",
+            "value": 107,
+            "change": "src/assets/imges/icon-down.svg",
+            "numfollowers": "19%",
+            "gridname":"youtube1",
+            "chancolor": "red"
+        },
+        {
+            "id":8,
+            "platform": "src/assets/imges/icon-youtube.svg",
+            "metric": "Total Views",
+            "value": 1407,
+            "change": "src/assets/imges/icon-down.svg",
+            "numfollowers": "12%",
+            "gridname":"youtube2",
+            "chancolor": "red"
+        }
+    ]
+}

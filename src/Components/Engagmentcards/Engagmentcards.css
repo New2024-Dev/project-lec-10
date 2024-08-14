@@ -1,0 +1,144 @@
+#engcard.dark{
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "pargname imgplform"
+    "numshow changenum";
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+    
+}
+
+#engcard.light{
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "pargname imgplform"
+    "numshow changenum";
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    row-gap: 10px;
+}
+
+#Darkpargname{
+    color: hsl(228, 34%, 66%);
+    font-size: 15px;
+    font-weight: bold;
+    grid-area: pargname;
+    margin: 0;
+    justify-self: start;
+
+}
+
+#Lightpargname{
+    color: hsl(228, 12%, 44%);
+    font-size: 15px;
+    font-weight: bold;
+    grid-area: pargname;
+    margin: 0;
+    justify-self: start;
+
+}
+
+#imgplform{
+    grid-area: imgplform;
+    margin: 0;
+    justify-self: end;
+   
+}
+
+#Darknumshow{
+    grid-area: numshow;
+    color: white;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 40px;
+    justify-self: start;
+
+}
+#Lightnumshow{
+    grid-area: numshow;
+    color: black;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 40px;
+    justify-self: start;
+
+}
+
+#changenum{
+    grid-area: changenum;
+    margin: 0;
+    justify-self: end;
+}
+
+.FC1{
+    grid-area: FC1;
+}
+
+.FC2{
+    grid-area: FC2; 
+}
+
+.instagram1{
+    grid-area: instagram1;
+}
+
+.instagram2{
+    grid-area: instagram2;
+}
+
+.twitter1{
+    grid-area: twitter1;
+}
+
+.twitter2{
+    grid-area: twitter2;
+}
+
+.youtube1{
+    grid-area: youtube1;
+}
+
+.youtube2{
+    grid-area: youtube2;
+}
+
+.green{
+    color: hsl(163, 72%, 41%);
+}
+
+.red{
+    color: hsl(356, 69%, 56%);
+}
+
+#engcard.dark.active{
+    background-color: hsl(229, 27%, 32%);
+}
+
+#engcard.light.active{
+    background-color: hsl(228, 20%, 75%);
+}
+
+
+@media only screen and (max-width: 600px){
+   #engcard{
+    width: 300px;
+   } 
+}
+

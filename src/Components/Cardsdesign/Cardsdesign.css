@@ -1,0 +1,103 @@
+#card.dark {
+    background-color: hsl(228, 28%, 20%);
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#card.light {
+    background-color: hsl(227, 47%, 96%);
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#Darkpargplatform{
+    color: hsl(228, 34%, 66%);
+}
+
+#Lightpargplatform{
+    color: hsl(228, 12%, 44%);
+}
+
+#Darkfollnum{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+#Lightfollnum{
+    color: black;
+    font-size: 50px;
+    margin: 0;
+}
+
+#Darkpargflowers{
+    color: hsl(228, 34%, 66%);
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#Lightpargflowers{
+    color: hsl(228, 12%, 44%);
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#today{
+    color: hsl(163, 72%, 41%);
+    
+}
+
+.border1{
+    border-top: 4px solid hsl(208, 92%, 53%);
+}
+
+.border2{
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.border2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px; 
+    background: linear-gradient(to right,hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+  }
+
+
+.border3{
+    border-top: 4px solid  hsl(348, 97%, 39%);
+}
+
+#card.dark.active{
+    background-color: hsl(229, 27%, 32%);
+}
+
+#card.light.active{
+    background-color: hsl(228, 20%, 75%);
+}
+
+@media only screen and (max-width: 600px){
+    #card.dark{
+        width: 340px;
+    }
+    #card.light{
+        width: 340px;
+    }
+}
+
